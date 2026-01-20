@@ -2,6 +2,8 @@
 
 {
   vim = {
+    viAlias = true;
+    vimAlias = true;
     clipboard = {
       enable = true;
       registers = "unnamedplus";
