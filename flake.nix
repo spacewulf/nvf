@@ -21,6 +21,7 @@
               ./options
               ./plugins
               ./languages
+              ./ui
               {
                 config.vim = {
                 };

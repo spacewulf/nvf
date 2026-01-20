@@ -274,7 +274,7 @@
     }
     {
       mode = "n";
-      key = "<leader>";
+      key = "<leader>q";
       action = "<CMD>quit<CR>";
       desc = "Quit current buffer";
     }
