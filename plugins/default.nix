@@ -1,5 +1,8 @@
 { pkgs, ... }:
 {
+  imports = [
+    ./snacks.nix
+  ];
   vim = {
     fzf-lua.enable = true;
     git = {
