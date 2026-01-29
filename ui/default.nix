@@ -2,6 +2,9 @@
 
 {
   vim = {
+    statusline.lualine = {
+      enable = true;
+    };
     ui = {
       noice = {
         enable = true;

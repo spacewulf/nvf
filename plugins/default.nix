@@ -8,9 +8,6 @@
     git = {
       vim-fugitive.enable = true;
     };
-    statusline.lualine = {
-      enable = true;
-    };
     extraPlugins = {
       nvim-surround = {
         package = "nvim-surround";

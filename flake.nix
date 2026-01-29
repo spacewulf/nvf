@@ -22,10 +22,6 @@
               ./plugins
               ./languages
               ./ui
-              {
-                config.vim = {
-                };
-              }
             ];
           }).neovim;
       };

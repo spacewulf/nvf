@@ -18,7 +18,10 @@
       rust.enable = true;
       lua.enable = true;
       python.enable = true;
-      markdown.extensions.markview-nvim.enable = true;
+      markdown = {
+        enable = true;
+        extensions.markview-nvim.enable = true;
+      };
     };
   };
 }
