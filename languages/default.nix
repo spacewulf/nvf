@@ -1,6 +1,9 @@
 {
   vim = {
-    lsp.enable = true;
+    lsp = {
+      enable = true;
+      lspconfig.enable = true;
+    };
     treesitter = {
       enable = true;
       context.enable = true;
