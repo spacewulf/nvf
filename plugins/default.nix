@@ -16,7 +16,7 @@
         '';
       };
       tmux-navigator = {
-        package = pkgs.vimPlugins.tmux-navigator;
+        package = pkgs.vimPlugins.vim-tmux-navigator;
         setup = ''
         '';
       };

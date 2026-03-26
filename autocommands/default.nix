@@ -7,16 +7,16 @@
     { name = "treesitter-init"; clear = true; }
   ];
   vim.autocmds = [
-    {
-      event = [ "FileType" ];
-      pattern = [ "arduino" ];
-      group = "treesitter-init";
-      callback = lib.generators.mkLuaInline ''
-        function()
-          vim.lsp.enable('arduino_language_server')
-        end
-      '';
-    }
+    # {
+    #   event = [ "FileType" ];
+    #   pattern = [ "arduino" ];
+    #   group = "treesitter-init";
+    #   callback = lib.generators.mkLuaInline ''
+    #     function()
+    #       vim.lsp.enable('arduino_language_server')
+    #     end
+    #   '';
+    # }
     {
       event = [ "TextYankPost" ];
       group = "highlight-yank";

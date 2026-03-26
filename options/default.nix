@@ -8,6 +8,19 @@
       enable = true;
       registers = "unnamedplus";
     };
+    navigation = {
+      harpoon = {
+        enable = true;
+        mappings = {
+          file1 = "<A-h>";
+          file2 = "<A-j>";
+          file3 = "<A-k>";
+          file4 = "<A-l>";
+          listMarks = "<C-e>";
+          markFile = "<leader>a";
+        };
+      };
+    };
     options = {
       winborder = "rounded";
       smarttab = true;
