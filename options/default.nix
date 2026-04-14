@@ -67,6 +67,7 @@
       oil-nvim.enable = true;
       mkdir.enable = true;
       nix-develop.enable = true;
+      sleuth.enable = true;
     };
     theme.enable = true;
   };
