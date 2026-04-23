@@ -24,6 +24,7 @@
       enableTreesitter = true;
       nix.enable = true;
       rust.enable = true;
+      java.enable = true;
       lua.enable = true;
       python.enable = true;
       # arduino = {
