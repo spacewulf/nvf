@@ -21,6 +21,9 @@
         };
       };
     };
+    visuals = {
+      nvim-web-devicons.enable = true;
+    };
     options = {
       winborder = "rounded";
       smarttab = true;
